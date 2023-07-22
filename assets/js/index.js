@@ -1,6 +1,11 @@
 const toggleBtn = document.querySelector(".toggle-btn")
 const toggleBtnIcon = document.querySelector(".toggle-btn i")
 const dropdownMenu = document.querySelector(".dropdown_menu")
-toggleBtn.onClick= function (){
+toggleBtn.addEventListener("click",()=>{
     dropdownMenu.classList.toggle('open')
-}
+    const isOpen = dropdownMenu.classList.contains('open')
+    toggleBtnIcon.classList = isOpen
+    ? 'fa fa-times'
+    : 'fa fa-bars'
+})
+

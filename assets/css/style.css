@@ -66,6 +66,15 @@
   .main-content header .menu-bar .toggle-btn {
     display: block;
   }
+  .main-content header .menu-bar .dropdown_menu {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .main-content header .menu-bar .dropdown_menu {
+    left: 2rem;
+    width: unset;
+  }
 }
 .main-content header .dropdown_menu {
   position: absolute;
@@ -73,8 +82,8 @@
   top: 60px;
   width: 300px;
   overflow: hidden;
-  display: none;
-  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  height: 0;
+  transition: height 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .main-content header .dropdown_menu li {
   padding: 0.7rem;
@@ -82,7 +91,10 @@
   align-items: center;
   justify-content: center;
 }
+.main-content .d {
+  background-color: aqua;
+}
 
 .open {
-  display: block;
+  height: 240px !important;
 }/*# sourceMappingURL=style.css.map */
