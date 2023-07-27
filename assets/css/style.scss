@@ -13,7 +13,7 @@ $color: rgba(125,43,196,1);
     background-size: cover;
     @media (max-width: 768px) {
         &{
-            height: 200vh;
+            height: 150vh;
         }
     }
     li{
@@ -85,6 +85,8 @@ $color: rgba(125,43,196,1);
             overflow: hidden;
             height: 0;
             transition: height 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            background-color: rgb(48, 48, 48);
+            border-radius: 10px;
             li{
                 padding: 0.7rem;
                 display: flex;
@@ -101,12 +103,11 @@ $color: rgba(125,43,196,1);
         font-family: 'Raleway', sans-serif;
         #brand{
             font-size: 5rem;
-            // @media (max-width: 576px) {
-            //     .dropdown_menu{
-            //         left: 2rem;
-            //         width: unset;
-            //     }
-            // }
+            @media (max-width: 576px) {
+                &{
+                    font-size: 2rem;                    
+                }
+            }
         }
         button{
             padding: 10px 50px 10px 50px;        }
