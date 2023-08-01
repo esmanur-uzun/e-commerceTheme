@@ -147,6 +147,12 @@ body {
       color: #fff;
       img{
         width: 70px;
+        height: 70px;
+      }
+      h1{
+        font-size: 3rem;
+        line-height: 1.2em;
+        font-weight: 400;
       }
     }
     .gradient {
@@ -158,8 +164,12 @@ body {
         height: 60vh;
       }
       .train {
-        height: 60vh;
+        height: 80vh;
         background-size: cover;
+        h1{
+          font-size: 2rem;
+        }
+       
       }
     }
     img {

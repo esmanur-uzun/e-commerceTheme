@@ -141,6 +141,12 @@ body {
 }
 .main-content .exercise .train img {
   width: 70px;
+  height: 70px;
+}
+.main-content .exercise .train h1 {
+  font-size: 3rem;
+  line-height: 1.2em;
+  font-weight: 400;
 }
 .main-content .exercise .gradient {
   height: 85vh;
@@ -151,8 +157,11 @@ body {
     height: 60vh;
   }
   .main-content .exercise .train {
-    height: 60vh;
+    height: 80vh;
     background-size: cover;
+  }
+  .main-content .exercise .train h1 {
+    font-size: 2rem;
   }
 }
 .main-content .exercise img {
