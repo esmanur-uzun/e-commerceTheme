@@ -1,6 +1,6 @@
 $font: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 $color: rgba(125, 43, 196, 1);
-$background: rgb(56, 56, 56);
+$background: rgb(87, 87, 87);
 
 * {
   margin: 0;
@@ -139,26 +139,9 @@ body {
 
   .exercise {
     .train {
-      height: 85vh;
       background: url("../medias/sport1.avif");
-      background-size: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-      color: #fff;
-      img{
-        width: 70px;
-        height: 70px;
-      }
-      h1{
-        font-size: 3rem;
-        line-height: 1.2em;
-        font-weight: 400;
-      }
     }
-    .gradient {
-      height: 85vh;
-      background: url("../medias/gradient.webp");
-    }
+    
     @media (max-width: 768px) {
       .gradient {
         height: 60vh;
@@ -182,6 +165,60 @@ body {
           width: 250px;
           height: 379px;
         }
+      }
+    }
+  }
+  .gradient {
+    height: 85vh;
+    background: url("../medias/gradient.webp");
+    img {
+      width: 350px;
+      height: 479px;
+      object-fit: contain;
+      object-position: 50% 50%;
+      @media (max-width: 768px) {
+        &{
+          width: 250px;
+          height: 379px;
+        }
+      }
+    }
+  }
+  .background{
+    height: 85vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    img{
+      width: 70px;
+      height: 70px;
+    }
+    h1{
+      font-size: 3rem;
+      line-height: 1.2em;
+      font-weight: 400;
+    }
+    span{
+      letter-spacing: 5px;
+      @media (max-width: 768px) {
+        &{
+          letter-spacing: 0;        
+        }
+      }
+    }
+  }
+ 
+  .notification{
+    .n-system{
+      background-color: rgb(95, 95, 95);
+    }
+    .row{
+      flex-direction: row-reverse;
+    }
+    @media (max-width: 768px) {
+      .row{
+        flex-direction: initial;
       }
     }
   }

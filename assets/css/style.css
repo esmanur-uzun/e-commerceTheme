@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(56, 56, 56) !important;
+  background-color: rgb(87, 87, 87) !important;
 }
 
 .main-content {
@@ -132,25 +132,7 @@ body {
   width: 100%;
 }
 .main-content .exercise .train {
-  height: 85vh;
   background: url("../medias/sport1.avif");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #fff;
-}
-.main-content .exercise .train img {
-  width: 70px;
-  height: 70px;
-}
-.main-content .exercise .train h1 {
-  font-size: 3rem;
-  line-height: 1.2em;
-  font-weight: 400;
-}
-.main-content .exercise .gradient {
-  height: 85vh;
-  background: url("../medias/gradient.webp");
 }
 @media (max-width: 768px) {
   .main-content .exercise .gradient {
@@ -176,5 +158,58 @@ body {
   .main-content .exercise img {
     width: 250px;
     height: 379px;
+  }
+}
+.main-content .gradient {
+  height: 85vh;
+  background: url("../medias/gradient.webp");
+}
+.main-content .gradient img {
+  width: 350px;
+  height: 479px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+@media (max-width: 768px) {
+  .main-content .gradient img {
+    width: 250px;
+    height: 379px;
+  }
+}
+.main-content .background {
+  height: 85vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.main-content .background img {
+  width: 70px;
+  height: 70px;
+}
+.main-content .background h1 {
+  font-size: 3rem;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+.main-content .background span {
+  letter-spacing: 5px;
+}
+@media (max-width: 768px) {
+  .main-content .background span {
+    letter-spacing: 0;
+  }
+}
+.main-content .notification .n-system {
+  background-color: rgb(95, 95, 95);
+}
+.main-content .notification .row {
+  flex-direction: row-reverse;
+}
+@media (max-width: 768px) {
+  .main-content .notification .row {
+    flex-direction: initial;
   }
 }/*# sourceMappingURL=style.css.map */
