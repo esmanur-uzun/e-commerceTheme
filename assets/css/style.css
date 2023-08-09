@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(87, 87, 87) !important;
+  background-color: rgb(66, 66, 66) !important;
 }
 
 .main-content {
@@ -203,7 +203,7 @@ body {
   }
 }
 .main-content .notification .n-system {
-  background-color: rgb(95, 95, 95);
+  background-color: rgb(74, 74, 74);
 }
 .main-content .notification .row {
   flex-direction: row-reverse;
@@ -211,5 +211,36 @@ body {
 @media (max-width: 768px) {
   .main-content .notification .row {
     flex-direction: initial;
+  }
+}
+.main-content .bracelets {
+  color: #fff;
+  font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
+  text-align: center;
+}
+.main-content .bracelets h1 {
+  font-size: 3.5rem;
+}
+@media (max-width: 768px) {
+  .main-content .bracelets h1 {
+    font-size: 2rem;
+  }
+}
+.main-content .bracelets img {
+  width: 70px;
+  height: 70px;
+}
+.main-content .bracelets .products {
+  width: 953px;
+  height: 694px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+@media (max-width: 768px) {
+  .main-content .bracelets .products {
+    width: 298px;
+    height: 216px;
   }
 }/*# sourceMappingURL=style.css.map */

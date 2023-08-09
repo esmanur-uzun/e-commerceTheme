@@ -1,6 +1,6 @@
 $font: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 $color: rgba(125, 43, 196, 1);
-$background: rgb(87, 87, 87);
+$background: rgb(66, 66, 66);
 
 * {
   margin: 0;
@@ -141,7 +141,7 @@ body {
     .train {
       background: url("../medias/sport1.avif");
     }
-    
+
     @media (max-width: 768px) {
       .gradient {
         height: 60vh;
@@ -149,10 +149,9 @@ body {
       .train {
         height: 80vh;
         background-size: cover;
-        h1{
+        h1 {
           font-size: 2rem;
         }
-       
       }
     }
     img {
@@ -161,7 +160,7 @@ body {
       object-fit: contain;
       object-position: 50% 50%;
       @media (max-width: 768px) {
-        &{
+        & {
           width: 250px;
           height: 379px;
         }
@@ -177,48 +176,77 @@ body {
       object-fit: contain;
       object-position: 50% 50%;
       @media (max-width: 768px) {
-        &{
+        & {
           width: 250px;
           height: 379px;
         }
       }
     }
   }
-  .background{
+  .background {
     height: 85vh;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
-    img{
+    img {
       width: 70px;
       height: 70px;
     }
-    h1{
+    h1 {
       font-size: 3rem;
       line-height: 1.2em;
       font-weight: 400;
     }
-    span{
+    span {
       letter-spacing: 5px;
       @media (max-width: 768px) {
-        &{
-          letter-spacing: 0;        
+        & {
+          letter-spacing: 0;
         }
       }
     }
   }
- 
-  .notification{
-    .n-system{
-      background-color: rgb(95, 95, 95);
+
+  .notification {
+    .n-system {
+      background-color: rgb(74, 74, 74);
     }
-    .row{
+    .row {
       flex-direction: row-reverse;
     }
     @media (max-width: 768px) {
-      .row{
+      .row {
         flex-direction: initial;
+      }
+    }
+  }
+  .bracelets {
+    color: #fff;
+    font-family: $font;
+    text-align: center;
+    h1 {
+      font-size: 3.5rem;
+      @media (max-width: 768px) {
+        & {
+          font-size: 2rem;
+        }
+      }
+    }
+    img {
+      width: 70px;
+      height: 70px;
+    }
+    .products {
+      width: 953px;
+      height: 694px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      @media (max-width: 768px) {
+        & {
+          width: 298px;
+          height: 216px;
+        }
       }
     }
   }
