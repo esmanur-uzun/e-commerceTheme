@@ -11,6 +11,6 @@ toggleBtn.addEventListener("click",()=>{
 
 $(document).ready(function(){
     $(".exercise").waypoint(function(){
-        console.log("deneme")
+        $(".train").animate({opacity: '0.5'},800)
     })
 })

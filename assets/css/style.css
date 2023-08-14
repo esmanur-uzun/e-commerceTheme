@@ -141,6 +141,7 @@ body {
   .main-content .exercise .train {
     height: 80vh;
     background-size: cover;
+    background-repeat: no-repeat;
   }
   .main-content .exercise .train h1 {
     font-size: 2rem;
