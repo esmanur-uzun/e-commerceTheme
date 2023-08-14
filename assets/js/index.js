@@ -9,12 +9,8 @@ toggleBtn.addEventListener("click",()=>{
     : 'fa fa-bars'
 })
 
-// $(window).scroll(function() {
-// 	var $height = $(window).scrollTop();
-//   if($height > 80) {
-// 		// $(".menu-bar").css("position","fixed")
-// 	} 
-//     else if($height <50){
-//         $(".d").css("background-color","blue")
-//     }
-// });
+$(document).ready(function(){
+    $(".exercise").waypoint(function(){
+        console.log("deneme")
+    })
+})
