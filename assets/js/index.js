@@ -11,6 +11,10 @@ toggleBtn.addEventListener("click",()=>{
 
 $(document).ready(function(){
     $(".exercise").waypoint(function(){
-        $(".train").animate({opacity: '0.5'},800)
+        $(".train").animate({opacity: '1'},800)
+    });
+    $(".notification").waypoint(function(){
+        $(".train").css("opacity","0.5")
     })
+    $('.parallax-window').parallax({imageSrc: './assets/medias/fachry-zella-devandra-Yta-zdP9PVM-unsplash.jpg'});
 })

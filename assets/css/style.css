@@ -133,6 +133,8 @@ body {
 }
 .main-content .exercise .train {
   background: url("../medias/sport1.avif");
+  background-position: center;
+  opacity: 0.5;
 }
 @media (max-width: 768px) {
   .main-content .exercise .gradient {
@@ -244,4 +246,11 @@ body {
     width: 298px;
     height: 216px;
   }
+}
+.main-content .w-system {
+  height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
