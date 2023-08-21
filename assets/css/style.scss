@@ -260,4 +260,27 @@ body {
     background-position: center;
     color: #fff;
   }
+  .t-feature{
+    background-image: url("../medias/gradient.webp");
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    h1{
+      font-size: 4rem;
+      @media (max-width: 768px) {
+        & {
+          font-size: 2rem;
+        }
+      }
+    }
+    .animate-img{
+      opacity: 0;
+      animation-duration: 1.2s !important;
+    }
+    .d{
+      width: 200px;
+      height: 200px;
+      background-color: aqua;
+    }
+  }
 }
