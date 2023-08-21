@@ -1,6 +1,7 @@
 $font: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 $color: rgba(125, 43, 196, 1);
 $background: rgb(66, 66, 66);
+$box-color: rgb(47, 47, 47);
 
 * {
   margin: 0;
@@ -264,6 +265,7 @@ body {
     background-image: url("../medias/gradient.webp");
     background-position: center;
     color: #fff;
+    position: relative;
     text-align: center;
     h1{
       font-size: 4rem;
@@ -275,12 +277,19 @@ body {
     }
     .animate-img{
       opacity: 0;
-      animation-duration: 1.2s !important;
     }
-    .d{
-      width: 200px;
-      height: 200px;
-      background-color: aqua;
+    .box-container{
+      position: absolute;
+      top: 30%;
+      z-index: 1;
+    }
+    .box{
+      opacity: 0;
+      border-radius: 10px;
+      background-color: $box-color;
+    }
+    .action-btn{
+      padding: 10px 55px 10px 55px;
     }
   }
 }

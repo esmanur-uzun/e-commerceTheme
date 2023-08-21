@@ -258,6 +258,7 @@ body {
   background-image: url("../medias/gradient.webp");
   background-position: center;
   color: #fff;
+  position: relative;
   text-align: center;
 }
 .main-content .t-feature h1 {
@@ -270,10 +271,17 @@ body {
 }
 .main-content .t-feature .animate-img {
   opacity: 0;
-  animation-duration: 1.2s !important;
 }
-.main-content .t-feature .d {
-  width: 200px;
-  height: 200px;
-  background-color: aqua;
+.main-content .t-feature .box-container {
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+}
+.main-content .t-feature .box {
+  opacity: 0;
+  border-radius: 10px;
+  background-color: rgb(47, 47, 47);
+}
+.main-content .t-feature .action-btn {
+  padding: 10px 55px 10px 55px;
 }/*# sourceMappingURL=style.css.map */

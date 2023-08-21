@@ -19,5 +19,9 @@ $(document).ready(function(){
     $('.parallax-window').parallax({imageSrc: './assets/medias/fachry-zella-devandra-Yta-zdP9PVM-unsplash.jpg'});
     $(".t-feature").waypoint(function(){
         $(".animate-img").addClass("animate__animated animate__fadeInUp")
+        $(".box:nth-child(1)").addClass("animate__animated animate__fadeInLeft")
+        $(".box:nth-child(3)").addClass("animate__animated animate__fadeInLeft")
+        $(".box:nth-child(2)").addClass("animate__animated animate__fadeInRight")
+        $(".box:nth-child(4)").addClass("animate__animated animate__fadeInRight")
     })
 })
