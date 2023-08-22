@@ -301,4 +301,7 @@ body {
   color: #fff;
   position: absolute;
   z-index: 1;
+}
+.main-content .card-container .card-section .card-info h6 {
+  font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 }/*# sourceMappingURL=style.css.map */
