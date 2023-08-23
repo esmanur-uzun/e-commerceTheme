@@ -340,6 +340,7 @@ body {
     
   }
   .subscribe{
+    height: 70vh;
     h1{
       color: #fff;
       line-height: 1.2em;
@@ -351,6 +352,15 @@ body {
         }
       }
     }
+    .form-control{
+      padding: 20px;
+      border-radius: 50px;
+      box-shadow: 2px 2px 15px 3px $color;
+      &:hover{
+        background-color: rgb(251, 208, 245);
+      }
+    }
+    
     
   }
 }

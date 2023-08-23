@@ -1,12 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #424242 !important;
+  background-color: rgb(66, 66, 66) !important;
 }
 
 .main-content {
@@ -15,68 +14,54 @@ body {
   background-image: url(../medias/gradient.webp);
   background-size: cover;
 }
-
 @media (max-width: 768px) {
   .main-content {
     height: 150vh;
   }
 }
-
 .main-content li {
   list-style: none;
 }
-
 .main-content li a:hover {
-  color: #7d2bc4;
+  color: rgb(125, 43, 196);
 }
-
 .main-content a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
   font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 }
-
 .main-content a i {
   color: #fff;
   font-size: 25px;
 }
-
 .main-content header {
   position: relative;
   padding: 0 2 rem;
 }
-
 .main-content header .menu-bar {
   width: 100%;
   height: 60px;
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .main-content header .menu-bar .logo {
   font-size: 1.5rem;
 }
-
 .main-content header .menu-bar .logo a {
   font-size: 25px;
   font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 }
-
 .main-content header .menu-bar .links ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 2rem;
 }
-
 .main-content header .menu-bar .toggle-btn {
   color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
 }
-
 @media (max-width: 992px) {
   .main-content header .menu-bar .links,
   .main-content header .menu-bar .action-btn {
@@ -89,14 +74,12 @@ body {
     display: block;
   }
 }
-
 @media (max-width: 576px) {
   .main-content header .menu-bar .dropdown_menu {
     left: 2rem;
     width: unset;
   }
 }
-
 .main-content header .dropdown_menu {
   position: absolute;
   right: 2rem;
@@ -104,74 +87,55 @@ body {
   width: 300px;
   overflow: hidden;
   height: 0;
-  -webkit-transition: height 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transition: height 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  background-color: #303030;
+  background-color: rgb(48, 48, 48);
   border-radius: 10px;
 }
-
 .main-content header .dropdown_menu li {
   padding: 0.7rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .main-content header .open {
   height: 240px !important;
 }
-
 .main-content .content {
   height: 110vh;
   color: white;
   font-family: "Nanum Gothic", sans-serif;
   font-family: "Raleway", sans-serif;
 }
-
 .main-content .content #brand {
   font-size: 5rem;
 }
-
 @media (max-width: 576px) {
   .main-content .content #brand {
     font-size: 2rem;
   }
 }
-
 .main-content .content button {
   padding: 10px 50px 10px 50px;
 }
-
 .main-content .action-btn {
-  background-color: #7d2bc4;
+  background-color: rgb(125, 43, 196);
   border-radius: 30px;
   color: #fff;
   padding: 5px 30px 5px 30px;
-  -webkit-box-shadow: 2px 2px 15px 3px #7d2bc4;
-          box-shadow: 2px 2px 15px 3px #7d2bc4;
+  box-shadow: 2px 2px 15px 3px rgb(125, 43, 196);
 }
-
 .main-content .action-btn:hover {
   background-color: #fff;
   color: black;
 }
-
 .main-content .product img {
   width: 100%;
 }
-
 .main-content .exercise .train {
   background: url("../medias/sport1.avif");
   background-position: center;
   opacity: 0.5;
 }
-
 @media (max-width: 768px) {
   .main-content .exercise .gradient {
     height: 60vh;
@@ -185,7 +149,6 @@ body {
     font-size: 2rem;
   }
 }
-
 .main-content .exercise img {
   width: 350px;
   height: 479px;
@@ -194,19 +157,16 @@ body {
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
 }
-
 @media (max-width: 768px) {
   .main-content .exercise img {
     width: 250px;
     height: 379px;
   }
 }
-
 .main-content .gradient {
   height: 85vh;
   background: url("../medias/gradient.webp");
 }
-
 .main-content .gradient img {
   width: 350px;
   height: 479px;
@@ -215,14 +175,12 @@ body {
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
 }
-
 @media (max-width: 768px) {
   .main-content .gradient img {
     width: 250px;
     height: 379px;
   }
 }
-
 .main-content .background {
   height: 85vh;
   background-size: contain;
@@ -230,69 +188,51 @@ body {
   background-repeat: no-repeat;
   color: #fff;
 }
-
 .main-content .background img {
   width: 70px;
   height: 70px;
 }
-
 .main-content .background h1 {
   font-size: 3rem;
   line-height: 1.2em;
   font-weight: 400;
 }
-
 .main-content .background span {
   letter-spacing: 5px;
 }
-
 @media (max-width: 768px) {
   .main-content .background span {
     letter-spacing: 0;
   }
 }
-
 .main-content .notification .n-system {
-  background-color: #4a4a4a;
+  background-color: rgb(74, 74, 74);
 }
-
 .main-content .notification .row {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
-
 @media (max-width: 768px) {
   .main-content .notification .row {
-    -webkit-box-orient: initial;
-    -webkit-box-direction: initial;
-        -ms-flex-direction: initial;
-            flex-direction: initial;
+    flex-direction: initial;
   }
 }
-
 .main-content .bracelets {
   color: #fff;
   font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
   text-align: center;
 }
-
 .main-content .bracelets h1 {
   font-size: 3.5rem;
 }
-
 @media (max-width: 768px) {
   .main-content .bracelets h1 {
     font-size: 2rem;
   }
 }
-
 .main-content .bracelets img {
   width: 70px;
   height: 70px;
 }
-
 .main-content .bracelets .products {
   width: 953px;
   height: 694px;
@@ -301,14 +241,12 @@ body {
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
 }
-
 @media (max-width: 768px) {
   .main-content .bracelets .products {
     width: 298px;
     height: 216px;
   }
 }
-
 .main-content .w-system {
   height: 95vh;
   background-size: cover;
@@ -316,7 +254,6 @@ body {
   background-position: center;
   color: #fff;
 }
-
 .main-content .t-feature {
   background-image: url("../medias/gradient.webp");
   background-position: center;
@@ -324,43 +261,35 @@ body {
   position: relative;
   text-align: center;
 }
-
 .main-content .t-feature h1 {
   font-size: 4rem;
 }
-
 @media (max-width: 768px) {
   .main-content .t-feature h1 {
     font-size: 2rem;
   }
 }
-
 .main-content .t-feature .animate-img {
   opacity: 0;
 }
-
 .main-content .t-feature .box-container {
   position: absolute;
   top: 30%;
   z-index: 1;
 }
-
 @media (max-width: 768px) {
   .main-content .t-feature .box-container {
     position: inherit !important;
   }
 }
-
 .main-content .t-feature .box {
   opacity: 0;
   border-radius: 10px;
-  background-color: #2f2f2f;
+  background-color: rgb(47, 47, 47);
 }
-
 .main-content .t-feature .action-btn {
   padding: 10px 55px 10px 55px;
 }
-
 .main-content .card-container .card-section .card-image {
   width: 100%;
   height: 100%;
@@ -368,26 +297,21 @@ body {
      object-fit: contain;
   opacity: 0.5;
 }
-
 .main-content .card-container .card-section .card-info {
   color: #fff;
   position: absolute;
   z-index: 1;
 }
-
 .main-content .card-container .card-section .card-info h6 {
   font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 }
-
 .main-content .buy-trackmate {
   color: #fff;
   font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;
 }
-
 .main-content .buy-trackmate h6 {
   letter-spacing: 0.2em;
 }
-
 .main-content .buy-trackmate .bracelet-img {
   width: 876px;
   height: 420px;
@@ -396,28 +320,34 @@ body {
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
 }
-
 @media (max-width: 768px) {
   .main-content .buy-trackmate .bracelet-img {
     width: 280px;
     height: 150px;
   }
 }
-
 .main-content .buy-trackmate .action-btn {
   padding: 10px 55px 10px 55px;
 }
-
+.main-content .subscribe {
+  height: 70vh;
+}
 .main-content .subscribe h1 {
   color: #fff;
   line-height: 1.2em;
   text-align: center;
   font-size: 50px;
 }
-
 @media (max-width: 768px) {
   .main-content .subscribe h1 {
     font-size: 22px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+.main-content .subscribe .form-control {
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 15px 3px rgb(125, 43, 196);
+}
+.main-content .subscribe .form-control:hover {
+  background-color: rgb(251, 208, 245);
+}/*# sourceMappingURL=style.css.map */
