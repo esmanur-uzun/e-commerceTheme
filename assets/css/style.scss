@@ -316,4 +316,41 @@ body {
     }
    
   }
+  .buy-trackmate{
+    color: #fff;
+    font-family: $font;
+    h6{
+      letter-spacing: 0.2em;
+    }
+    .bracelet-img{
+      width: 876px;
+      height: 420px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      @media (max-width: 768px) {
+        & {
+          width: 280px;
+          height: 150px;
+        }
+      }
+    }
+    .action-btn{
+      padding: 10px 55px 10px 55px;
+    }
+    
+  }
+  .subscribe{
+    h1{
+      color: #fff;
+      line-height: 1.2em;
+      text-align: center;
+      font-size: 50px;
+      @media (max-width: 768px) {
+        & {
+          font-size: 22px;
+        }
+      }
+    }
+    
+  }
 }
