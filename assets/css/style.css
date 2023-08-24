@@ -352,7 +352,7 @@ body {
   background-color: rgb(251, 208, 245);
 }
 .main-content .footer {
-  height: 70vh;
+  height: 60vh;
   background-image: url("../medias/footer-img.webp");
 }
 .main-content .footer .social-media {
