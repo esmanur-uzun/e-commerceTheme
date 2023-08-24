@@ -363,4 +363,37 @@ body {
     
     
   }
+  .footer{
+    height: 70vh;
+    background-image: url("../medias/footer-img.webp");
+    .social-media{
+      height: 100%;
+      .links{
+        hr{
+          background-color: #fff;
+          width: 100%;
+        }
+        @media (max-width: 768px) {
+          ul{
+            display: block !important;
+          }
+        }
+      }
+      .credit-card{
+        span{
+          color: #fff;
+          font-size: 10px;
+        }
+       li{
+        // padding: 5px;
+        img{
+          width: 43px;
+          height: 24px;
+          object-fit: cover;
+          object-position: 50% 50%;
+        }
+       }
+      }
+    }
+  }
 }

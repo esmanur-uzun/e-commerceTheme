@@ -350,4 +350,32 @@ body {
 }
 .main-content .subscribe .form-control:hover {
   background-color: rgb(251, 208, 245);
+}
+.main-content .footer {
+  height: 70vh;
+  background-image: url("../medias/footer-img.webp");
+}
+.main-content .footer .social-media {
+  height: 100%;
+}
+.main-content .footer .social-media .links hr {
+  background-color: #fff;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .main-content .footer .social-media .links ul {
+    display: block !important;
+  }
+}
+.main-content .footer .social-media .credit-card span {
+  color: #fff;
+  font-size: 10px;
+}
+.main-content .footer .social-media .credit-card li img {
+  width: 43px;
+  height: 24px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
 }/*# sourceMappingURL=style.css.map */
