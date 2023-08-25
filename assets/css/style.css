@@ -248,10 +248,12 @@ body {
   }
 }
 .main-content .w-system {
-  height: 95vh;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../medias/fachry-zella-devandra-Yta-zdP9PVM-unsplash.jpg");
+  min-height: 95vh;
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 }
 .main-content .t-feature {
